@@ -21,14 +21,8 @@ function fizzBuzz(){
 }
 
 function countBs(str){
-    var bCount = 0;
-    for(var i =0; i <= str.length; i++){
-        if (str.charAt(i) === "B"){
-            bCount++;
-        }
-        
-    }
-    return(bCount);
+    return countChar(str, "B");
+    
 }
 
 function countChar(str, ch){
