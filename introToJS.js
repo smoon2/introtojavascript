@@ -30,3 +30,13 @@ function countBs(str){
     }
     return(bCount);
 }
+
+function countChar(str, ch){
+    var chCount = 0;
+    for(var i = 0; i<=str.length; i++){
+        if(str.charAt(i) === ch){
+            chCount++;
+        }
+    }
+    return(chCount);
+}
